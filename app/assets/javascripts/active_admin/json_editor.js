@@ -11,7 +11,7 @@
       var options = {
         modes: ['tree', 'text'],
         mode: 'tree',
-        change: function(ev){
+        onChange: function(ev){
           try {
             var text = JSON.stringify(editor.get());
             textarea.text(text);
@@ -21,7 +21,7 @@
             editor.options.error(e);
           }
         },
-        error: function(e){
+        onError: function(e){
           $(fieldset).toggleClass('error',true);
         }
       };
