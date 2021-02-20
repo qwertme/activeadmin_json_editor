@@ -1,5 +1,4 @@
 //= require jsoneditor/jsoneditor.js
-//= require jsoneditor/asset/jsonlint/jsonlint.js
 
 ;(function(window, $) {
   $(function() {
